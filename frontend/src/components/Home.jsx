@@ -16,9 +16,9 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1 className="home-title">Welcome to Scholar's Haven</h1>
+      <h2 className="home-title">Welcome to Book store</h2>
       <p className="home-subtitle">
-        Discover books across various genres and explore a world of knowledge and imagination.
+        
       </p>
       <div className="categories-grid">
         {categories.map((category, index) => (
